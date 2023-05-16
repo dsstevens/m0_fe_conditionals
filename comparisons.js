@@ -80,18 +80,20 @@ var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
 // Is the value of the variables friends greater than siblings?
+// The expected output is true.
 // We define the variable friends as having the numerical value of 6 and siblings as 2.
 // This boolean statement is asking if the value of friends is more than siblings.
-// The expected output is true.
+
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
 // Is the value of the variable attendees not strictly equal to the value of the variable meals?
+// The expected output is true and you have one hungry guest.
 // We define the variables of attendees as the numerical value of 9 and meals as the numerical value of 8.
 // This boolean statement is asking if the value of the attendees is not strictly equal to the value of meals.
-// The expected output is true and you have one hungry guest.
+
 
 
 // #-------------------
@@ -114,15 +116,18 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
+console.log(lovesToPlay && lovesTreats);
 
 // Determine if the dog loves to play and loves the dog park
-
+console.log(lovesToPlay && lovesDogPark);
 
 // Determine if the dog loves to play or loves the dog park
-
+console.log(lovesToPlay || lovesDogPark);
 
 // Determine if the dog loves to play and is a puppy
-
+console.log (lovesToPlay && age)
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// The final line of code evaluated to be just the number 1. 
+// I think this is because the comparison model doesn't work with the second variable of age, 
+// so the output defaults to just the number value which is a constant.
