@@ -61,23 +61,37 @@ console.log("Is numberStudents less than or equal to 21?", numberStudents <=21);
 console.log(4 < 9);
 // YOU DO: Explain.
 // Is 4 less than 9?
-// this should log true
+// This should log true.
 // This conditional statement is asking how these elements compare to each other in a boolean statement. 
 // 4 and 9 are defined numbers with fixed values, so 4 is always less than 9. The expected output is true. 
+// console.log is commanding the console to print the expected output.
 
 var books = 3;
 console.log(4 < books);
 // YOU DO: Explain.
+// Is 4 less than books?
+// This should log false.
+// We define the variable `books` as having the numerical value of 3.
+// This boolean statement is asking if the number 4 is less than the variable books. 
+// Since we defined books as having the value of 3 then the expected output is false.
 
 var friends = 6;
 var siblings = 2;
 console.log(friends > siblings);
 // YOU DO: Explain.
+// Is the value of the variables friends greater than siblings?
+// We define the variable friends as having the numerical value of 6 and siblings as 2.
+// This boolean statement is asking if the value of friends is more than siblings.
+// The expected output is true.
 
 var attendees = 9;
 var meals = 8;
 console.log(attendees !== meals);
 // YOU DO: Explain.
+// Is the value of the variable attendees not strictly equal to the value of the variable meals?
+// We define the variables of attendees as the numerical value of 9 and meals as the numerical value of 8.
+// This boolean statement is asking if the value of the attendees is not strictly equal to the value of meals.
+// The expected output is true and you have one hungry guest.
 
 
 // #-------------------
