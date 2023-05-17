@@ -11,7 +11,7 @@
   // if it is snowy, print "coat"
   // if it is icy, print "yak traks"
 
-var weather = "sunny"
+var weather = "icy"
 
 if (weather === "sunny") {
   console.log("sunscreen");
@@ -42,10 +42,16 @@ if (weather === "sunny") {
 // Experiment with manipulating the value held within numQuarters
 // to make sure both conditions can be achieved.
 
-var numQuarters = 0
+var numQuarters = 5
 
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
+
+if (numQuarters >= 1) {
+console.log("I have enough money for a gumball");
+} else if(numQuarters < 1) {
+  console.log("I don't have enough money for a gumball");
+}
 
 
 // #####################
@@ -64,4 +70,5 @@ console.log("I don't have enough money for a gumball");
 
 var cupsOfFlour = 1;
 var hasSauce = true;
+
 
