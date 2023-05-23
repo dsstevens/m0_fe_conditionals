@@ -47,9 +47,9 @@ var numQuarters = 5
 console.log("I have enough money for a gumball");
 console.log("I don't have enough money for a gumball");
 
-if (numQuarters >= 1) {
+if (numQuarters >= 2) {
 console.log("I have enough money for a gumball");
-} else if(numQuarters < 1) {
+} else {
   console.log("I don't have enough money for a gumball");
 }
 
